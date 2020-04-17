@@ -1,0 +1,25 @@
+/* Style rules defined here will be applied to the entire application. */
+
+h1 {
+  font-size: 5em;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 200;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+.btn {
+  border-radius: 0 !important;
+}

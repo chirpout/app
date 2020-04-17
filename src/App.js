@@ -1,26 +1,22 @@
-import React, { Component } from 'react';
-import { Route, Switch, Link, Redirect } from 'react-router-dom';
+import React, { Component } from "react";
+import { Route, Switch, Link, Redirect } from "react-router-dom";
+import AOS from "aos";
+import "./App.css";
 
-import './App.css';
-
-import Navigation from './components/navigation.js';
-import Home from './pages/home.js';
-import Report from './pages/report.js';
-import Browse from './pages/browse.js';
+import Navigation from "./components/navigation.js";
+import Home from "./pages/home.js";
+import Report from "./pages/report.js";
+import Browse from "./pages/browse.js";
 
 class App extends Component {
   constructor(props) {
     super(props);
-
   }
 
-  componentWillMount() {
-
+  componentDidMount() {
   }
 
-  componentWillUnmount() {
-
-  }
+  componentWillUnmount() {}
 
   render() {
     return (
@@ -33,12 +29,10 @@ class App extends Component {
             <Route exact path="/browse" component={Browse} />
           </Switch>
         </header>
-        <main>
-        </main>
+        <main></main>
       </div>
     );
   }
-
 }
 
 export default App;

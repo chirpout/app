@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';  // Added for reactstrap
 import './index.css';
+import 'aos/dist/aos.css'; // Added for AOS animation library
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

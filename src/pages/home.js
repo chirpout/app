@@ -5,12 +5,11 @@ import styles from "./css/home.module.css";
 import AOS from "aos";
 
 class Home extends Component {
-
-    componentDidMount(props) {
-        AOS.init({
-            duration: 1200,
-          })
-    }
+  componentDidMount(props) {
+    AOS.init({
+      duration: 1200,
+    });
+  }
 
   render() {
     return (
@@ -22,29 +21,25 @@ class Home extends Component {
             the workplace.
           </p>
           <div className={styles.buttons}>
-            <Link to="/browse" passHref>
-              <NavLink>
-                <Button
-                  outline
-                  component="a"
-                  size="lg"
-                  className={styles.mainbutton}
-                >
-                  FIND A WORKPLACE
-                </Button>
-              </NavLink>
+            <Link to="/dashboard" passHref>
+              <Button
+                outline
+                component="a"
+                size="lg"
+                className={styles.mainbutton}
+              >
+                FIND A WORKPLACE
+              </Button>
             </Link>
             <Link to="/report" passHref>
-              <NavLink>
-                <Button
-                  outline
-                  component="a"
-                  size="lg"
-                  className={styles.mainbutton}
-                >
-                  REPORT A CONCERN
-                </Button>
-              </NavLink>
+              <Button
+                outline
+                component="a"
+                size="lg"
+                className={styles.mainbutton}
+              >
+                REPORT A CONCERN
+              </Button>
             </Link>
           </div>
         </Container>

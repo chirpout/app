@@ -6,15 +6,14 @@ import "./App.css";
 import Navigation from "./components/navigation.js";
 import Home from "./pages/home.js";
 import Report from "./pages/report.js";
-import Browse from "./pages/browse.js";
+import Dashboard from "./pages/dashboard.js";
 
 class App extends Component {
   constructor(props) {
     super(props);
   }
 
-  componentDidMount() {
-  }
+  componentDidMount() {}
 
   componentWillUnmount() {}
 
@@ -26,7 +25,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/report" component={Report} />
-            <Route exact path="/browse" component={Browse} />
+            <Route exact path="/dashboard" component={Dashboard} />
           </Switch>
         </header>
         <main></main>

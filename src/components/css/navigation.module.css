@@ -3,8 +3,31 @@
     border: 1px solid;
     border-color: #C5C5C5;
     border-style: none none solid none;
+    box-shadow: 0px 3px 6px #00000029;
+    color: #3A4462;
 }
 
 .accountbutton {
     margin-left: 1em;
+    font-size: .5rem;
+    font-weight: bold;
+    color: #71737D;
+    width: 6.5rem;
+    height: 2rem;
+    box-shadow: 0px 3px 6px #00000029;
+
+    border: 1px solid #DFE0E5;
+    border-radius: 4px;
+
+}
+
+a {
+    color: #3A4462;
+}
+
+.navHead {
+    font-size: 1.75rem !important;
+    font-weight: bold;
+    color: #3A4462 !important;
+
 }

@@ -1,18 +1,24 @@
 /* Style rules defined here will be applied to the entire application. */
 
+body {
+  font-family: 'Helvetica Neue';
+  color: #3A4462;
+  background-color: white;
+}
+
 h1 {
-  font-size: 5em;
-  font-weight: 200;
+  font-size: 4em;
+  font-weight: bold;
 }
 
 h2 {
-  font-size: 3em;
-  font-weight: 200;
+  font-size: 3.5em;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 2em;
-  font-weight: 200;
+  font-weight: bold;
 }
 
 p {
@@ -21,5 +27,16 @@ p {
 }
 
 .btn {
-  border-radius: 0 !important;
+  /* border-radius: 0 !important; */
 }
+
+.btnColor {
+  background: #FFB85A 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #EBAE5C;
+  border-radius: 5px;
+}
+
+/* .colorz {
+  background-color: #F6F7FA;
+} */

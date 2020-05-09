@@ -35,7 +35,7 @@ class Before extends Component {
                                 <Col sm='2'><div className={styles.circle}>1</div></Col>
                                 <Col sm='8' className='d-flex align-items-center'>
                                     <p className={styles.step}>
-                                        Fill out the questionnaire and describe your concern.
+                                        Verify your workplace employment.
                                     </p>
                                 </Col>
                             </Row>
@@ -44,7 +44,7 @@ class Before extends Component {
                                 <Col sm='2'><div className={styles.circle}>2</div></Col>
                                 <Col sm='8' className='d-flex align-items-center'>
                                     <p className={styles.step}>
-                                        Verify your workplace employment.
+                                        Fill out the questionnaire and describe your concern.
                                     </p>
                                 </Col>
                             </Row>
@@ -53,7 +53,7 @@ class Before extends Component {
                                 <Col sm='2'><div className={styles.circle}>3</div></Col>
                                 <Col sm='8' className='d-flex align-items-center'>
                                     <p className={styles.step}>
-                                        View your report’s status along With hundreds of others.
+                                        View your report’s status along with hundreds of other reports.
                                     </p>
                                 </Col>
                             </Row>

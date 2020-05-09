@@ -9,6 +9,8 @@ import Report from "./pages/report.js";
 import Dashboard from "./pages/dashboard.js";
 import Before from "./pages/before.js";
 
+import Chirps from "./pages/chirps";
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -28,6 +30,7 @@ class App extends Component {
             <Route exact path="/report" component={Report} />
             <Route exact path='/before' component={Before} />
             <Route exact path="/dashboard" component={Dashboard} />
+            <Route exact path="/chirps" component={Chirps} />
           </Switch>
         </header>
         <main></main>

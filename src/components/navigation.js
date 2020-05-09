@@ -47,7 +47,7 @@ export default class Navigation extends Component {
             <Nav className="ml-auto d-flex align-items-center" navbar>
               <NavItem >
                 <NavLink nav>
-                  <Link to='/dashboard' passHref>
+                  <Link to='/chirps' passHref>
                     Chirps
                 </Link>
                 </NavLink>

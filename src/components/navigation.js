@@ -62,7 +62,7 @@ export default class Navigation extends Component {
               </NavItem>
 
               <NavItem>
-                <Link to="/login" passHref>
+                <Link to="/signup" passHref>
                   <Button outline component="a" className={styles.accountbutton}>
                     SIGN UP
                   </Button>

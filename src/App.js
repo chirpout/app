@@ -8,6 +8,7 @@ import Home from "./pages/home.js";
 import Report from "./pages/report.js";
 import Dashboard from "./pages/dashboard.js";
 import Before from "./pages/before.js";
+import SignUp from "./pages/signup.js";
 
 class App extends Component {
   constructor(props) {
@@ -28,6 +29,7 @@ class App extends Component {
             <Route exact path="/report" component={Report} />
             <Route exact path='/before' component={Before} />
             <Route exact path="/dashboard" component={Dashboard} />
+            <Route exact path="/signup" component={SignUp} />
           </Switch>
         </header>
         <main></main>

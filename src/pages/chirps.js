@@ -117,13 +117,14 @@ class Chirps extends Component {
 
                 <Container>
                     <h3>Related Chirps</h3>
+
                     <Row className='mt-5 justify-content-md-center'>
-                        <Row>
-                            <Col>
-                                <Card>
+
+                            <Col xs="auto" md="4">
+                                <Card className='my-2'>
                                     <CardBody>
                                         <div className={styles.company}>Tax Fraud?</div>
-                                        <div className={styles.footer_title}>Kirkland, WA</div>
+                                        <div className={styles.footer_title}>Microsoft, Redmond WA</div>
                                         <CardText>
                                             <div className={styles.footer_text}>
                                                 Lorem ipsum dolor sit amen, consecutar
@@ -131,17 +132,17 @@ class Chirps extends Component {
                                                 sunt in culpa, id est laborum.
                                             </div>
                                         </CardText>
-                                        <div className={styles.footer_stats}><i></i><FontAwesomeIcon icon={faClock} /> 1d &nbsp; &nbsp;<FontAwesomeIcon icon={faEye} /> 252 views</div>
+                                        <div className={styles.footer_stats}><i></i><FontAwesomeIcon icon={faClock} /> 1d &nbsp; &nbsp;<FontAwesomeIcon icon={faEye} /> 232 views</div>
 
                                     </CardBody>
                                 </Card>
                             </Col>
 
-                            <Col>
-                                <Card>
+                            <Col xs="auto" md="4">
+                                <Card className='my-2'>
                                     <CardBody>
-                                        <div className={styles.company}>Tax Fraud?</div>
-                                        <div className={styles.footer_title}>Kirkland, WA</div>
+                                        <div className={styles.company}>Embezzlement!!</div>
+                                        <div className={styles.footer_title}>Google, Kirkland WA</div>
                                         <CardText>
                                             <div className={styles.footer_text}>
                                                 Lorem ipsum dolor sit amen, consecutar
@@ -149,17 +150,17 @@ class Chirps extends Component {
                                                 sunt in culpa, id est laborum.
                                             </div>
                                         </CardText>
-                                        <div className={styles.footer_stats}><i></i><FontAwesomeIcon icon={faClock} /> 1d &nbsp; &nbsp;<FontAwesomeIcon icon={faEye} /> 252 views</div>
+                                        <div className={styles.footer_stats}><i></i><FontAwesomeIcon icon={faClock} /> 1d &nbsp; &nbsp;<FontAwesomeIcon icon={faEye} /> 546 views</div>
 
                                     </CardBody>
                                 </Card>
                             </Col>
 
-                            <Col>
-                                <Card>
+                            <Col xs="auto" md="4">
+                                <Card className='my-2'>
                                     <CardBody>
-                                        <div className={styles.company}>Tax Fraud?</div>
-                                        <div className={styles.footer_title}>Kirkland, WA</div>
+                                        <div className={styles.company}>Insider Trading ?? ? ?? ! ??</div>
+                                        <div className={styles.footer_title}>Amazon, Bellevue WA</div>
                                         <CardText>
                                             <div className={styles.footer_text}>
                                                 Lorem ipsum dolor sit amen, consecutar
@@ -167,13 +168,12 @@ class Chirps extends Component {
                                                 sunt in culpa, id est laborum.
                                             </div>
                                         </CardText>
-                                        <div className={styles.footer_stats}><i></i><FontAwesomeIcon icon={faClock} /> 1d &nbsp; &nbsp;<FontAwesomeIcon icon={faEye} /> 252 views</div>
+                                        <div className={styles.footer_stats}><i></i><FontAwesomeIcon icon={faClock} /> 1d &nbsp; &nbsp;<FontAwesomeIcon icon={faEye} /> 112 views</div>
 
                                     </CardBody>
                                 </Card>
                             </Col>
                             
-                        </Row>
                     </Row>
                 </Container>
             </div>

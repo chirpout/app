@@ -23,11 +23,19 @@
 }
 
 .a {
-    color: blue;
+    color: #2A5DE8;
     font-weight: 400;
 }
 
 .button {
     width: 200px;
+    background-color: #2A5DE8;
 }
 
+.button:hover {
+    background-color: rgb(25, 59, 151);
+}
+
+.button:active {
+    background-color: rgb(25, 59, 151);
+}

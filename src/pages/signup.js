@@ -9,7 +9,7 @@ class SignUp extends Component {
   
     render() {
       return (
-        <div>
+        <div className='mt-5 pt-5'>
             <Form>
                 <FormGroup>
                     <Input type="email" name="email" id="registerEmail" placeholder="Work Email Address" />

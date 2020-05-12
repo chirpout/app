@@ -1,0 +1,33 @@
+.input {
+    margin-bottom: 10px;
+}
+
+.form {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.text {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.button {
+    margin: auto;
+}
+
+.a {
+    color: blue;
+    font-weight: 400;
+}
+
+.button {
+    width: 200px;
+}
+

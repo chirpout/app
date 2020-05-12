@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import styles from "./css/signup.module.css";
 
 class SignUp extends Component {
     constructor(props) {
@@ -9,17 +10,21 @@ class SignUp extends Component {
   
     render() {
       return (
-        <div className='mt-5 pt-5'>
+        <div className={styles.form}>
+            <h3 className={styles.title}>Create an Account</h3>
+            <p className={styles.text}>By signing up you agree to ChirpOut's <a className={styles.a} href='/'>Terms of Service</a></p>
+            <p className={styles.text}>Already have an account? <a className={styles.a} href='/login'>Log in</a></p>
+            <hr className='my-4'></hr>
             <Form>
                 <FormGroup>
-                    <Input type="email" name="email" id="registerEmail" placeholder="Work Email Address" />
-                    <FormText color="muted">
+                    <Input className={styles.input} type="email" name="email" id="registerEmail" placeholder="Work Email Address" />
+                    <FormText className={styles.input} color="muted">
                         Entering your work email verifies your employment. We won't share your email address with anyone.
                     </FormText>
-                    <Input type="username" name="username" id="registerUsername" placeholder="Username" />
-                    <Input type="password" name="password" id="registerPassword" placeholder="Password" />
+                    <Input className={styles.input} type="username" name="username" id="registerUsername" placeholder="Username" />
+                    <Input className={styles.input} type="password" name="password" id="registerPassword" placeholder="Password" />
                 </FormGroup>
-                <Button>Sign Up</Button>
+                <div className='row justify-content-center'><Button className={styles.button}>Sign Up</Button></div>
             </Form>
         </div>
       );

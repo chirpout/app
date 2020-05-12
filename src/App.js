@@ -10,6 +10,8 @@ import Dashboard from "./pages/dashboard.js";
 import Before from "./pages/before.js";
 import SignUp from "./pages/signup.js";
 
+import Chirps from "./pages/chirps";
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -30,6 +32,7 @@ class App extends Component {
             <Route exact path='/before' component={Before} />
             <Route exact path="/dashboard" component={Dashboard} />
             <Route exact path="/signup" component={SignUp} />
+            <Route exact path="/chirps" component={Chirps} />
           </Switch>
         </header>
         <main></main>

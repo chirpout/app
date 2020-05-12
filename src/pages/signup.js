@@ -6,6 +6,22 @@ class SignUp extends Component {
     constructor(props) {
       super(props);
       this.myRef = React.createRef();
+      this.state = {
+        email: null,
+        password: null
+      };
+    }
+
+    handleEmailChange = (e) => {
+        this.setState({email: e.target.value});
+    }
+
+    handlePasswordChange = (e) => {
+        this.setState({password: e.target.value});
+    }
+    
+    handleSignUp = () => {
+        
     }
   
     render() {
@@ -17,14 +33,14 @@ class SignUp extends Component {
             <hr className='my-4'></hr>
             <Form>
                 <FormGroup>
-                    <Input className={styles.input} type="email" name="email" id="registerEmail" placeholder="Work Email Address" />
+                    <Input className={styles.input} value={this.state.email} onChange={this.handleEmailChange} type="email" name="email" id="registerEmail" placeholder="Work Email Address" />
                     <FormText className={styles.input} color="muted">
                         Entering your work email verifies your employment. We won't share your email address with anyone.
                     </FormText>
-                    <Input className={styles.input} type="username" name="username" id="registerUsername" placeholder="Username" />
-                    <Input className={styles.input} type="password" name="password" id="registerPassword" placeholder="Password" />
+                    {/* <Input className={styles.input} type="username" name="username" id="registerUsername" placeholder="Username" /> */}
+                    <Input className={styles.input} value={this.state.password} onChange={this.handlePasswordChange} type="password" name="password" id="registerPassword" placeholder="Password" />
                 </FormGroup>
-                <div className='row justify-content-center'><Button className={styles.button}>Sign Up</Button></div>
+                <div onClick={this.handleSignUp} className='row justify-content-center'><Button className={styles.button}>Sign Up</Button></div>
             </Form>
         </div>
       );

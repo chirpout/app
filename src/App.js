@@ -11,6 +11,7 @@ import Before from "./pages/before.js";
 import SignUp from "./pages/signup.js";
 
 import Chirps from "./pages/chirps";
+import Companies from "./pages/companies";
 
 class App extends Component {
   constructor(props) {
@@ -33,6 +34,7 @@ class App extends Component {
             <Route exact path="/dashboard" component={Dashboard} />
             <Route exact path="/signup" component={SignUp} />
             <Route exact path="/chirps" component={Chirps} />
+            <Route exact path="/companies" component={Companies} />
           </Switch>
         </header>
         <main></main>

@@ -55,7 +55,7 @@ export default class Navigation extends Component {
 
               <NavItem>
                 <NavLink>
-                  <Link to='/companies' passHref>
+                  <Link to='/' passHref>
                     Companies
                   </Link>
                 </NavLink>

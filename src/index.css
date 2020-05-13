@@ -21,10 +21,14 @@ h3 {
   font-weight: bold;
 }
 
-/* p {
+p {
   font-size: 1.5em;
   font-weight: 200;
-} */
+}
+
+.btn {
+  /* border-radius: 0 !important; */
+}
 
 .btnColor {
   background: #FFB85A 0% 0% no-repeat padding-box;

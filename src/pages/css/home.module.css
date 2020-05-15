@@ -34,11 +34,14 @@
     width: 100%;
     height: 500px;
 
-
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #DFE0E5;
+    /* background: #FFFFFF 0% 0% no-repeat padding-box; */
+    /* border: 1px solid #DFE0E5; */
     border-radius: 32px;
     opacity: 1;
+    background-image: url(../../components/imgs/home/home-one.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .path {
@@ -61,7 +64,7 @@
     position: absolute;
     top: 100%;
     left: 0;
-    height: 5%;
+    height: 4%;
     width: 100%;
     background: url(../../components/imgs/Path\ 161.svg) bottom center;
     background-repeat: no-repeat;
@@ -69,9 +72,7 @@
 }
 
 
-
 @media (min-width: 576px) {
-
     .backgrounder {
         background-color: rgba(246,247,250,1);
         position: relative;
@@ -83,7 +84,7 @@
         position: absolute;
         top: 100%;
         left: 0;
-        height: 29%;
+        height: 18%;
         width: 100%;
         background: url(../../components/imgs/Path\ 161.svg) bottom center;
         background-repeat: no-repeat;
@@ -98,6 +99,41 @@
     border-radius: 4px;
     opacity: 1;
 }
+
+.placeholder1 {
+    width: 100%;
+    height: 500px;
+    opacity: 1;
+
+    background-image: url(../../components/imgs/home/home-two.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.placeholder2 {
+    width: 100%;
+    height: 500px;
+    opacity: 1;
+
+    background-image: url(../../components/imgs/home/home-three.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.placeholder3 {
+    width: 100%;
+    height: 500px;
+    opacity: 1;
+
+    background-image: url(../../components/imgs/home/home-four.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 
 .placeholder {
     width: 100%;

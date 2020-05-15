@@ -48,7 +48,7 @@ class Home extends Component {
         <div className={styles.backgrounder}>
           <Container data-aos="fade-up" className={styles.container}>
             <Row>
-              <Col className="d-flex align-items-center mb-4" sm={6}>
+              <Col className="d-flex align-items-center mb-4" sm={5}>
                 <div>
                   <h1>Your concern,<br></br><span className={styles.heading}>Amplified.</span></h1>
                   <p className={styles.sub_header}>
@@ -60,7 +60,7 @@ class Home extends Component {
                 </div>
               </Col>
 
-              <Col sm={6}>
+              <Col sm={7}>
                 <div className={styles.headerImg}></div>
               </Col>
             </Row>
@@ -73,7 +73,7 @@ class Home extends Component {
             <h3 className='mb-5 pb-5'>Voice your concern in just three steps.</h3>
 
             <Row>
-              <Col className="d-flex align-items-center mb-4" sm='6'>
+              <Col className="d-flex align-items-center mb-4" sm='5'>
                 <Card className={styles.shadow}>
                   <CardBody>
                     <Row className="row justify-content-start">
@@ -85,8 +85,8 @@ class Home extends Component {
                 </Card>
               </Col>
 
-              <Col sm='6'>
-                <div className={styles.placeholder}></div>
+              <Col sm='7'>
+                <div className={styles.placeholder1}></div>
               </Col>
             </Row>
           </Container>
@@ -94,11 +94,11 @@ class Home extends Component {
           <Container className='mb-5 pb-3'>
             <Row>
 
-              <Col sm='6' className='mb-4'>
-                <div className={styles.placeholder}></div>
+              <Col sm='7' className='mb-4'>
+                <div className={styles.placeholder2}></div>
               </Col>
 
-              <Col className="d-flex align-items-center" sm='6'>
+              <Col className="d-flex align-items-center" sm='5'>
                 <Card className={styles.shadow}>
                   <CardBody>
                     <Row className="row justify-content-start">
@@ -114,7 +114,7 @@ class Home extends Component {
 
           <Container className='mb-5 pb-5'>
             <Row>
-              <Col className="d-flex align-items-center mb-4" sm='6'>
+              <Col className="d-flex align-items-center mb-4" sm='5'>
                 <Card className={styles.shadow}>
                   <CardBody>
                     <Row className="row justify-content-start">
@@ -126,8 +126,8 @@ class Home extends Component {
                 </Card>
               </Col>
 
-              <Col sm='6'>
-                <div className={styles.placeholder}></div>
+              <Col sm='7'>
+                <div className={styles.placeholder3}></div>
               </Col>
             </Row>
           </Container>
@@ -136,7 +136,7 @@ class Home extends Component {
 
         <div className={styles.under}>
           <Container data-aos="fade-up" className={styles.lastCont}>
-            <h3 className='mb-5 col-sm-8'><span className={styles.btmHead}>Elevate your workplace transparency for issues that matter to you.</span></h3>
+            <h3 className='mb-5 col-sm-8'><span className={styles.btmHead}>Your Concern Amplified.</span></h3>
 
             <Card>
               <CardBody>

@@ -10,10 +10,15 @@ import styles from "./css/chirps.module.css";
 
 
 class Chirps extends Component {
+    componentDidMount(props) {
+        AOS.init({
+            duration: 1200,
+        });
+    }
 
     render() {
         return (
-            <div className={styles.chirpBody}>
+            <div className={styles.chirpBody} data-aos="fade-up">
                 <Container className='pt-5 my-5'>
                     <div>
                         Home / Dashboard / Chirps
@@ -120,60 +125,60 @@ class Chirps extends Component {
 
                     <Row className='mt-5 justify-content-md-center'>
 
-                            <Col xs="auto" md="4">
-                                <Card className='my-2'>
-                                    <CardBody>
-                                        <div className={styles.company}>Tax Fraud?</div>
-                                        <div className={styles.footer_title}>Microsoft, Redmond WA</div>
-                                        <CardText>
-                                            <div className={styles.footer_text}>
-                                                Lorem ipsum dolor sit amen, consecutar
-                                                De la ut enim ad minim venom, quis nostru prodient
-                                                sunt in culpa, id est laborum.
+                        <Col xs="auto" md="4">
+                            <Card className='my-2'>
+                                <CardBody>
+                                    <div className={styles.company}>Tax Fraud?</div>
+                                    <div className={styles.footer_title}>Microsoft, Redmond WA</div>
+                                    <CardText>
+                                        <div className={styles.footer_text}>
+                                            Lorem ipsum dolor sit amen, consecutar
+                                            De la ut enim ad minim venom, quis nostru prodient
+                                            sunt in culpa, id est laborum.
                                             </div>
-                                        </CardText>
-                                        <div className={styles.footer_stats}><i></i><FontAwesomeIcon icon={faClock} /> 1d &nbsp; &nbsp;<FontAwesomeIcon icon={faEye} /> 232 views</div>
+                                    </CardText>
+                                    <div className={styles.footer_stats}><i></i><FontAwesomeIcon icon={faClock} /> 1d &nbsp; &nbsp;<FontAwesomeIcon icon={faEye} /> 232 views</div>
 
-                                    </CardBody>
-                                </Card>
-                            </Col>
+                                </CardBody>
+                            </Card>
+                        </Col>
 
-                            <Col xs="auto" md="4">
-                                <Card className='my-2'>
-                                    <CardBody>
-                                        <div className={styles.company}>Embezzlement!!</div>
-                                        <div className={styles.footer_title}>Google, Kirkland WA</div>
-                                        <CardText>
-                                            <div className={styles.footer_text}>
-                                                Lorem ipsum dolor sit amen, consecutar
-                                                De la ut enim ad minim venom, quis nostru prodient
-                                                sunt in culpa, id est laborum.
+                        <Col xs="auto" md="4">
+                            <Card className='my-2'>
+                                <CardBody>
+                                    <div className={styles.company}>Embezzlement!!</div>
+                                    <div className={styles.footer_title}>Google, Kirkland WA</div>
+                                    <CardText>
+                                        <div className={styles.footer_text}>
+                                            Lorem ipsum dolor sit amen, consecutar
+                                            De la ut enim ad minim venom, quis nostru prodient
+                                            sunt in culpa, id est laborum.
                                             </div>
-                                        </CardText>
-                                        <div className={styles.footer_stats}><i></i><FontAwesomeIcon icon={faClock} /> 1d &nbsp; &nbsp;<FontAwesomeIcon icon={faEye} /> 546 views</div>
+                                    </CardText>
+                                    <div className={styles.footer_stats}><i></i><FontAwesomeIcon icon={faClock} /> 1d &nbsp; &nbsp;<FontAwesomeIcon icon={faEye} /> 546 views</div>
 
-                                    </CardBody>
-                                </Card>
-                            </Col>
+                                </CardBody>
+                            </Card>
+                        </Col>
 
-                            <Col xs="auto" md="4">
-                                <Card className='my-2'>
-                                    <CardBody>
-                                        <div className={styles.company}>Insider Trading ?? ? ?? ! ??</div>
-                                        <div className={styles.footer_title}>Amazon, Bellevue WA</div>
-                                        <CardText>
-                                            <div className={styles.footer_text}>
-                                                Lorem ipsum dolor sit amen, consecutar
-                                                De la ut enim ad minim venom, quis nostru prodient
-                                                sunt in culpa, id est laborum.
+                        <Col xs="auto" md="4">
+                            <Card className='my-2'>
+                                <CardBody>
+                                    <div className={styles.company}>Insider Trading ?? ? ?? ! ??</div>
+                                    <div className={styles.footer_title}>Amazon, Bellevue WA</div>
+                                    <CardText>
+                                        <div className={styles.footer_text}>
+                                            Lorem ipsum dolor sit amen, consecutar
+                                            De la ut enim ad minim venom, quis nostru prodient
+                                            sunt in culpa, id est laborum.
                                             </div>
-                                        </CardText>
-                                        <div className={styles.footer_stats}><i></i><FontAwesomeIcon icon={faClock} /> 1d &nbsp; &nbsp;<FontAwesomeIcon icon={faEye} /> 112 views</div>
+                                    </CardText>
+                                    <div className={styles.footer_stats}><i></i><FontAwesomeIcon icon={faClock} /> 1d &nbsp; &nbsp;<FontAwesomeIcon icon={faEye} /> 112 views</div>
 
-                                    </CardBody>
-                                </Card>
-                            </Col>
-                            
+                                </CardBody>
+                            </Card>
+                        </Col>
+
                     </Row>
                 </Container>
             </div>

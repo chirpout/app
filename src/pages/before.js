@@ -26,11 +26,11 @@ class Before extends Component {
                 <Container data-aos="fade-up" className={styles.maincontainer}>
                     <h3 className='mb-5 pb-5'>3 steps to bring awareness to your concern:</h3>
                     <Row className='d-flex align-items-center justify-content-center'>
-                        <Col sm='6' className='justify-content-end'>
+                        <Col sm='7' className='justify-content-end'>
                             <div className={styles.placeholder}></div>
                         </Col>
 
-                        <Col sm='6'>
+                        <Col sm='5'>
                             <Row className='pb-3 justify-content-start'>
                                 <Col sm='2'><div className={styles.circle}>1</div></Col>
                                 <Col sm='8' className='d-flex align-items-center'>

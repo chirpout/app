@@ -40,17 +40,5 @@
 
 .footer_title {
     color: #6F6F6F;
-    margin-bottom: 1em;
-    font-weight: 300;
-}
-
-.footer_text {
-    font-size: .75rem;
-    margin-bottom: 1em;
-}
-
-.footer_stats {
-    font-size: 1rem;
-    font-weight: 300;
-    color: #6F6F6F;
+    
 }

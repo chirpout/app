@@ -51,7 +51,7 @@ class Home extends Component {
               <Col className="d-flex align-items-center mb-4" sm={5}>
                 <div>
                   <h1>Your concern,<br></br><span className={styles.heading}>Amplified.</span></h1>
-                  <p className={styles.sub_header}>
+                  <p>
                     Voice your concern privately and follow other concerns happening in the workplace. Contribute to creating healthier, happier and more productive work environments.
                   </p>
                   <Link to="/before" passHref>

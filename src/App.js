@@ -8,9 +8,11 @@ import Home from "./pages/home.js";
 import Report from "./pages/report.js";
 import Dashboard from "./pages/dashboard.js";
 import Before from "./pages/before.js";
-
-import Chirps from "./pages/chirps";
-import Companies from "./pages/companies";
+import SignUp from "./pages/signup.js";
+import SignUpMessage from "./pages/signupmessage.js";
+import Chirps from "./pages/chirps.js";
+import LogIn from "./pages/login.js"
+import Companies from "./pages/companies.js"
 
 class App extends Component {
   constructor(props) {
@@ -31,8 +33,11 @@ class App extends Component {
             <Route exact path="/report" component={Report} />
             <Route exact path='/before' component={Before} />
             <Route exact path="/dashboard" component={Dashboard} />
+            <Route exact path="/signup" component={SignUp} />
             <Route exact path="/chirps" component={Chirps} />
             <Route exact path="/companies" component={Companies} />
+            <Route exact path="/signupmessage" component={SignUpMessage} />
+            <Route exact path="/login" component={LogIn} />
           </Switch>
         </header>
         <main></main>

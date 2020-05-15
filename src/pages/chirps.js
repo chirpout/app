@@ -33,7 +33,7 @@ class Chirps extends Component {
                                 <CardBody>
                                     <CardTitle tag='h4' className={styles.title}>Laid off as a recent employee</CardTitle>
                                     <div className={styles.company}>Lyft, Seattle WA</div>
-                                    <div className={styles.stats}><FontAwesomeIcon icon={faClock} /> 1d &nbsp; &nbsp;<FontAwesomeIcon icon={faEye} /> 252 views</div>
+                                    <div className={styles.stats}><i></i>1d 252 views</div>
 
                                     <CardText className={styles.chirpDet}>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -122,9 +122,7 @@ class Chirps extends Component {
 
                 <Container>
                     <h3>Related Chirps</h3>
-
                     <Row className='mt-5 justify-content-md-center'>
-
                         <Col xs="auto" md="4">
                             <Card className='my-2'>
                                 <CardBody>
@@ -174,7 +172,6 @@ class Chirps extends Component {
                                             </div>
                                     </CardText>
                                     <div className={styles.footer_stats}><i></i><FontAwesomeIcon icon={faClock} /> 1d &nbsp; &nbsp;<FontAwesomeIcon icon={faEye} /> 112 views</div>
-
                                 </CardBody>
                             </Card>
                         </Col>

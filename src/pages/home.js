@@ -136,7 +136,7 @@ class Home extends Component {
 
         <div className={styles.under}>
           <Container data-aos="fade-up" className={styles.lastCont}>
-            <h3 className='mb-5 col-sm-8'><span className={styles.btmHead}>Your Concern Amplified.</span></h3>
+            <h3 className='mb-5 col-sm-8'><span className={styles.btmHead}>Your Concern, Amplified.</span></h3>
 
             <Card>
               <CardBody>
@@ -146,7 +146,7 @@ class Home extends Component {
                   <Col sm={8} className="ml-auto d-flex align-items-center">
                     <div>
                       <h3>Elevate your workplace transparency for issues that matter to you.</h3>
-                      <Button className={styles.btnheading} size='lg' component>VOICE YOUR CONCERN</Button>
+                      <Link to="/before" passHref><Button className={styles.btnheading} size='lg' component>VOICE YOUR CONCERN</Button></Link>
                     </div>
 
                   </Col>

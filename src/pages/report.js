@@ -48,6 +48,7 @@ class Report extends Component {
             </Button>
           </div>
         </div>
+
         <div className={styles.surveycontainer} data-aos="fade-up">
           <iframe
             ref={this.myRef}
@@ -59,7 +60,7 @@ class Report extends Component {
     );
   }
 
-  scrollToRef = () => window.scrollTo(0, this.myRef.current.offsetTop);
+  scrollToRef = () => window.scrollTo(0, this.myRef);
 }
 
 export default Report;

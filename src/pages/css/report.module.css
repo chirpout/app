@@ -3,9 +3,10 @@ html {
 }
 
 .qualtrics {
+    margin-top: 2rem;
     border: none;
-    height: 600px;
-    width: 90%;
+    height: 800px;
+    width: 100%;
 }
 
 .introductiontext {
@@ -21,9 +22,9 @@ html {
     margin-top: 4em;
 }
 
-.surveycontainer {
+/* .surveycontainer {
     margin: 15em 5em 10em 5em;
-}
+} */
 
 .buttoncontainer {
     margin-top: 5em;

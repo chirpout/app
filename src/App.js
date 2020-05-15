@@ -9,8 +9,9 @@ import Report from "./pages/report.js";
 import Dashboard from "./pages/dashboard.js";
 import Before from "./pages/before.js";
 import SignUp from "./pages/signup.js";
-
-import Chirps from "./pages/chirps";
+import SignUpMessage from "./pages/signupmessage.js";
+import Chirps from "./pages/chirps.js";
+import LogIn from "./pages/login.js"
 
 class App extends Component {
   constructor(props) {
@@ -33,6 +34,8 @@ class App extends Component {
             <Route exact path="/dashboard" component={Dashboard} />
             <Route exact path="/signup" component={SignUp} />
             <Route exact path="/chirps" component={Chirps} />
+            <Route exact path="/signupmessage" component={SignUpMessage} />
+            <Route exact path="/login" component={LogIn} />
           </Switch>
         </header>
         <main></main>
